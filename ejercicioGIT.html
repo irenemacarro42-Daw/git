@@ -13,67 +13,78 @@
             <span id="tagline">Git y Github</span>
         </div>
         <div id="post">
-            <h1>Alumn@:  Escribe tus iniciales</h1>
+            <h1>Alumn@:  Escribe tus iniciales: imc</h1>
             <ol>
                 <li>
                     <h3>¿Que es un sistema de control de versiones?</h3>
-                    [Pon tu respuesta]
+                   Herramienta que registra los cambios en archivos para recuperar versiones específicas y permitir el trabajo en equipo sin sobrescribir código. 
+
                 </li>
                 <li>
                     <h3>¿Cual es la diferencia entre git y github?</h3>
-                    [Pon tu respuesta]
+                  Git es el software local para gestionar el historial; GitHub es la plataforma en la nube para alojar y compartir esos repositorios. 
+
                 </li>
                 <li>
                     <h3>¿Cómo creo una rama en git?</h3>
-                    [Pon tu respuesta]
+                    git remote -v: Muestra las URLs de los servidores remotos conectados a tu proyecto local.
+
                 </li>
                 <li>
                     <h3>¿Cómo clono un repositorio?</h3>
-                    [Pon tu respuesta]
+                   git clone <URL>.
                 </li>
                 <li>
                     <h3>¿Cómo puedo bajar los ultimos cambios de un repositorio?</h3>
-                    [Pon tu respuesta]
+                   git pull (descarga y mezcla) o git fetch (solo descarga)
                 </li>
                 <li>
                     <h3>¿Cómo puedo gener un tag?</h3>
-                    [Pon tu respuesta]
+            Con el comando git tag -a v1.0 -m "mensaje".
                 </li>
                 <li>
                     <h3>Cómo hago una mezcla de ramas?</h3>
-                    [Pon tu respuesta]
+                   Sitúate en la rama receptora con git checkout main y luego ejecuta git merge nombre-rama.
+
                 </li>
                 <li>
                     <h3>¿Cómo puedo moverme a un commit especifico?</h3>
-                    [Pon tu respuesta]
+                  Usando git checkout <hash-del-commit>.
                 </li>
                 <li>
                     <h3>¿Cómo puedo borrar una rama?</h3>
-                    [Pon tu respuesta]
+                    En local con git tag -d nombre-tag y en remoto con git push origin --delete nombre-tag.
+
                 </li>
                 <li>
                     <h3>¿Cómo puedo borrar un tag?</h3>
-                    [Pon tu respuesta]
+                   git tag -d <nombre> (local) o git push origin --delete <nombre> (remoto).
                 </li>
                 <li>
                     <h3>¿Cómo puedo ver los cambios que estan por enviarse al repositorio?</h3>
-                    [Pon tu respuesta]
+                   Con git status para ver archivos modificados y git diff --cached para ver las líneas exactas en el área de preparación.
                 </li>
                 <li>
                     <h3>¿Para que sirve el comando <em>git remote -v?</em></h3>
-                    [Pon tu respuesta]
+                    Para listar las URLs de los servidores remotos conectados al repositorio local.
                 </li>
                 <li>
                     <h3>¿Cómo le digo a git cual es mi email y correo?</h3>
-                    [Pon tu respuesta]
-                </li>
+Mediante git config --global user.name "Tu Nombre" y git config --global user.email "tu@email.com".                </li>
                 <li>
                     <h3>¿Cuales son los pasos para conectar git con github?</h3>
-                    [Pon tu respuesta]
+                Crear repositorio en GitHub.  
+
+git init en local.  
+
+git remote add origin <URL>.  
+
+git push -u origin master.
+
                 </li>
                 <li>
                     <h3>¿Cómo puedo crear un alias en git?</h3>
-                    [Pon tu respuesta]
+                    Con el comando git config --global alias.nombre-corto comando-original.
                 </li>
             </ol>
         </div>
